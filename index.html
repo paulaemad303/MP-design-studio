@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مطبخك ودريسينجك</title>
+  <style>
+    body { font-family: 'Cairo', sans-serif; background: #f9f9f9; color: #333; margin: 0; padding: 0; }
+    header { background: #222; color: white; padding: 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 28px; }
+    .hero { background: url('kitchen-hero.jpg') center/cover no-repeat; height: 250px; display: flex; align-items: center; justify-content: center; color: white; text-shadow: 0 0 10px black; }
+    .hero h2 { font-size: 24px; max-width: 90%; text-align: center; }
+    .section { padding: 20px 15px; max-width: 1000px; margin: auto; }
+    .section h3 { font-size: 22px; margin-bottom: 15px; }
+    .cta-button { display: inline-block; background: #e67e22; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 16px; }
+    .portfolio img { width: 100%; border-radius: 8px; margin-bottom: 15px; }
+    .services ul { list-style: none; padding: 0; }
+    .services li { margin-bottom: 10px; font-size: 16px; }
+    form input, form select, form button { width: 100%; padding: 10px; margin-bottom: 15px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; }
+    footer { background: #222; color: #ccc; text-align: center; padding: 20px; font-size: 14px; }
+    @media (min-width: 768px) {
+      header h1 { font-size: 32px; }
+      .hero { height: 400px; }
+      .hero h2 { font-size: 36px; }
+      .section h3 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>مطبخك ودريسينجك</h1>
+    <p>تصميم واقعي، تنفيذ حقيقي، تسليم على المفتاح</p>
+  </header>
+
+  <section class="hero">
+    <h2>من فكرة بسيطة… لتحفة معمارية</h2>
+  </section>
+
+  <section class="section about">
+    <h3>عنّا</h3>
+    <p>إحنا مش مجرد شركة تصميم… إحنا فريق بيشتغل بإيده كل يوم في الأرض. بنقدملك مطابخ ودريسينج تفصيل على المساحة… بخامات مضمونة، تشطيب احترافي، وتسليم من غير صداع.</p>
+  </section>
+
+  <section class="section portfolio">
+    <h3>شغلنا بيتكلم</h3>
+    <img src="kitchen1.png" alt="مطبخ مودرن واقعي">
+    <img src="dressing1.jpg" alt="دريسينج أنيق">
+    <a href="#contact" class="cta-button">شوف كل الشغل</a>
+  </section>
+
+  <section class="section services">
+    <h3>خدماتنا</h3>
+    <ul>
+      <li>✅ تصميم 3D كامل حسب مقاساتك</li>
+      <li>✅ اختيار خامات (خشب – أكريليك – PVC – إكسسوارات)</li>
+      <li>✅ تصنيع + تركيب احترافي</li>
+      <li>✅ صيانة وتعديل لو احتجت بعد التسليم</li>
+    </ul>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h3>اتواصل معانا</h3>
+    <p>اطلب تصميمك في أقل من دقيقة</p>
+    <form>
+      <input type="text" placeholder="الاسم" required>
+      <input type="tel" placeholder="رقم الموبايل" required>
+      <select>
+        <option>نوع المساحة</option>
+        <option>مطبخ</option>
+        <option>دريسينج</option>
+        <option>الاثنين</option>
+      </select>
+      <button type="submit" class="cta-button">ابدأ دلوقتي</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>كل شغلنا واقعي – معمول بإيد حرفيين خبرة. شغلك الجاي… نبدأه سوا؟</p>
+  </footer>
+
+</body>
+</html>
