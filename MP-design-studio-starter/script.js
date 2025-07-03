@@ -1,0 +1,1 @@
+console.log("MP Design Studio website loaded.");
